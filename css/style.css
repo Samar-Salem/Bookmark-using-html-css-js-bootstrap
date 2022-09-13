@@ -1,0 +1,60 @@
+*
+{
+    font-family: arial
+}
+/* Header Section */
+#bookmarkHead
+{
+   border-bottom: 1px solid #999;
+   color: #AAA;
+   margin-top: 3.5rem;
+}
+
+/* Site Info Section */
+.siteInfo 
+{
+    background-color: #EEE;
+}
+
+/* Site List Section */
+.webSiteList
+{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+.webSiteList p
+{
+     font-size: 22px;   
+}
+.btn-danger
+{
+    background-color:  #910004 !important;
+    color: white;
+    border: 1px solid #910004 !important;
+    border-radius: 5px;
+    padding: 6px 15px !important;
+}
+
+.alert-danger
+{
+    color: #6d0000;
+    border: 1px solid #6d0000 !important;
+    /* margin-top: 40% !important; */
+}
+
+
+
+/* Footer Section  */
+.siteFooter
+{
+    color: #AAA;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid #999;
+
+}
+
+.searchBtn{
+    height: 38px;
+  background-color: salmon;
+}
+

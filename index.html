@@ -1,0 +1,70 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarke</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+      <div class="container pb-5 " id="bookmarkHead">
+        <h3 class="font-weight-bold">Bookmarker</h3> 
+      </div>
+    </header>
+    <section class="container  py-3  ">
+        <div class="col-md-12">
+         <div class="siteInfo text-center ">
+            <h3 class="pt-5 pb-4 font-weight-bold">Bookmark your favorite sites</h3>
+
+            <label for="siteName" class="font-weight-bold"> Site Name</label>
+            <input type="text" name="" id="siteName" placeholder="Bookmark Name " class="form-control w-75 m-auto ">
+             <div class="alertError1  alert-danger w-75 m-auto  m-5  rounded d-none  font-weight-bold ">Name is required</div>
+
+            <label for="siteUrl" class="font-weight-bold my-3"> Site URL</label>
+            <input type="text" name="" id="siteUrl"  placeholder="website URL"  class="form-control w-75 m-auto">
+            <div class="alertError2  alert-danger w-75 m-auto  rounded d-none font-weight-bold ">URL field is required</div>
+
+            <button id=" " class=" btn-submit btn btn-info mt-3 mb-5 rounded" onclick="submitBtn()"> Submit</button>
+            <button id="" class="  btn-update btn btn-warning rounded mt-3 mb-5 text-light d-none " onclick="updateSiteInfo()"> Update</button>
+            <!-- <button id="" class="  btn-update btn btn- rounded mt-3 mb-5 text-light " onclick=""> Cancel</button> -->
+         </div>
+            </div>    
+    </section>
+    
+    <section class=" d-flex justify-content-center ">
+    <input type="text" placeholder="search" id="searchInput" class="my-5 form-control w-50  border-right-0 rounded-0  ">
+    <button class="searchBtn mt-5 px-3 border- "><i class="fas fa-search"></i></button>
+    </section>
+
+    <section class="container my-3 " >
+        <div class="col-md-12" id="webList">
+            
+
+
+         </div>
+      </div>
+        </section>
+
+        <footer class="container">
+            <div class="col-md-12 siteFooter pt-4">
+            <p>© 2019 Bookmarker Inc.</p>
+            </div>
+    </footer>
+    
+    
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
